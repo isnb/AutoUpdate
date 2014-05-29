@@ -1,0 +1,16 @@
+<style>
+
+  <class name="mainhead" skin="mainbghead" font="0000" crtext="000000" crbg="FBFCFD"/>
+  <class name="mainbody" skin="mainbgbody" font="0000" crtext="FFFFFF" crbg="FBFCFD" x-margin="7"/>
+  <class name="mainfoot" skin="mainbgfoot" font="0000" crtext="000000" crbg="FBFCFD" x-margin="10" y-margin="1"/>
+
+  <class name="msgboxhead" skin="msgboxhead" font="0000" crtext="000000" crbg="FBFCFD"/>
+  <class name="msgboxbody" skin="msgboxbody" font="0000" crtext="000000" crbg="FBFCFD"/>
+  <class name="msgboxfoot" skin="msgboxfoot" font="0000" crtext="000000" crbg="FBFCFD"/>
+
+  <class name="panel" skin="panel" margin="5"/>
+  
+  <class name="dlgtitle" font="0004" crtext="FFFFFF" textmode="8030"/>
+  <class name="linkimage" cursor="hand"/>
+  <class name="normalbtn" skin="normalbtn" font="0000" crtext="000000" textmode="25" cursor="hand" x-margin="5"/>
+</style>

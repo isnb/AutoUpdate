@@ -1,0 +1,12 @@
+; AutoUpdateCommon.def : 声明 DLL 的模块参数。
+
+LIBRARY      "AutoUpdateCommon"
+
+EXPORTS
+    ; 此处可以是显式导出
+    DownloadFile
+	CheckVersion
+	SetLogFn
+	SetGetModuleFn
+	Execute
+	GetCrcInfo

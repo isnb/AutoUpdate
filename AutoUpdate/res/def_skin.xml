@@ -1,0 +1,12 @@
+﻿<skins>
+
+  <imgframe name="msgboxhead" src="4" top="32" left="5" crbg="FBFCFD" part="top"/>
+  <imgframe name="msgboxbody" src="29" top="0" left="2" crbg="FBFCFD" part="middle"/>
+  <imgframe name="msgboxfoot" src="29" top="0" left="2" crbg="FBFCFD" part="bottom"/>
+  <imgframe name="panel" src="107" top="1" left="1" crbg="FBFCFD"/>
+ 
+
+  <png name="closeonlybtn" src="44" subwidth="43"/>
+  <png name="update_version" src="60" mode="mask"/>
+  <button name="normalbtn" border="7D9EBC" bg="FBFCFD" bgup="FEFEFE" bgdown="C6E2FD" bguphover="FEFEFE" bgdownhover="DBEDFE" bguppush="C6E2FD" bgdownpush="FEFEFE"/>
+</skins>

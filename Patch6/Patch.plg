@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Patch - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP66B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Patch.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\MyProgram\AutoUpdate\Patch6\Patch.cpp"
+"D:\MyProgram\AutoUpdate\Patch6\PatchDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP66B.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Patch.pdb" /debug /machine:I386 /out:"Debug/Patch.exe" /pdbtype:sept  .\Debug\Patch.obj .\Debug\PatchDlg.obj .\Debug\StdAfx.obj .\Debug\Patch.res "
+<h3>Output Window</h3>
+Compiling...
+Patch.cpp
+d:\myprogram\autoupdate\publish\bkupctl\bkupdwebfile.h(10) : fatal error C1083: Cannot open include file: 'atlfile.h': No such file or directory
+PatchDlg.cpp
+d:\myprogram\autoupdate\publish\bkupctl\bkupdwebfile.h(10) : fatal error C1083: Cannot open include file: 'atlfile.h': No such file or directory
+Generating Code...
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+Patch.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

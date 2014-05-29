@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Reg">
+      <UniqueIdentifier>{72782d60-f2e7-479f-a55f-d60b5d3e5549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kispublic">
+      <UniqueIdentifier>{a0f13cb7-f411-4e45-bc54-9db015b2ecdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="服务器配置文件">
+      <UniqueIdentifier>{65363aee-c562-4bfe-a791-3247a92cb29a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\miniutil\bkini.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\miniutil\bkjson.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\bkupctl\bkupddownloader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\bkupctl\bkupdwebfile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\zlibcrc32\crc32.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\miniutil\fileversion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\miniutil\fileversionex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="maindlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ManualUpdater.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\md5\md5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\iefix\RegisterOperate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\bkupctl\stdafx_bkupclt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\miniutil\szcmdline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\miniutil\szcmdlineex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\miniutil\szyaml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\tinyxml\tinystr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\tinyxml\tinyxml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\tinyxml\tinyxmlerror.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\tinyxml\tinyxmlparser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\winfilefinddata.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winhttp\WinHttpApi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\winhttpmodconnection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\winlogfile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\winmodinethttpconnection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\winpath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\winprocessenumerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\winregfind.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\winregkey.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\winregkeyfind.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\winregvaluefind.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\winservicefind.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\wintokenstack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\wintrustowner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\wintrustverifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\winmod\winuninstfind.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\zlib\zlibimp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\kispublic\kcalloem.cpp">
+      <Filter>Kispublic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\publish\kispublic\kopksafereg.cpp">
+      <Filter>Kispublic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.txt">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="bkwinres.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\def_skin.xml">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\def_string.xml">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\def_style.xml">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\dlg_updateversion.xml">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Update.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\YsIMupdate.ini">
+      <Filter>服务器配置文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\bkupctl\bkerror.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\bkupctl\bkupclt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\bkupctl\bkupclterr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\bkupctl\bkupddownloader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\bkupctl\bkupdwebfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\bkupctl\bkurl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bkwinres.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\zlibcrc32\crc32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\kernel32mod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maindlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ManualUpdater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\proxyinfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\psapimod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\iefix\RegisterOperate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\sfc_osmod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\bkupctl\stdafx_bkupclt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\common\utility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winfilefinddata.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winfilefinddef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winhttp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winhttpapi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winhttpdownloader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winhttpdownloaderbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winhttpmod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winhttpmodconnection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winhttpmoddownloadfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winhttpmodfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winhttpmodhandle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winhttpmodport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winhttpmodsession.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winlogfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winmodbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winmodinet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winmodinetconnection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winmodinetfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winmodinethandle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winmodinethttpconnection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winmodinethttpdownloadfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winmodinethttpdownloadmemory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winmodinethttpfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winmodinetsession.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winmodule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winosver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winpath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winprocessenumerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winregfind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winregkey.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winregkeyfind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winregvaluefind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winrunnable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winservicefind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winthread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\wintokenstack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\wintrustmod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\wintrustowner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\wintrustverifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winuninstfind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\winmod\winwow64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\kispublic\aplib.h">
+      <Filter>Kispublic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\kispublic\kcalloem.h">
+      <Filter>Kispublic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\kispublic\kdirectory.h">
+      <Filter>Kispublic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\kispublic\kfile.h">
+      <Filter>Kispublic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\kispublic\kis_diag.h">
+      <Filter>Kispublic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\kispublic\klocker.h">
+      <Filter>Kispublic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\kispublic\koemksfe.h">
+      <Filter>Kispublic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\kispublic\kopksafereg.h">
+      <Filter>Kispublic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\kispublic\kpath.h">
+      <Filter>Kispublic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\kispublic\kstringex.h">
+      <Filter>Kispublic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\kispublic\oeminforw.h">
+      <Filter>Kispublic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\publish\kispublic\public.h">
+      <Filter>Kispublic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AutoUpdate.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
